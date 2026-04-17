@@ -1,7 +1,7 @@
 {
   "version": "2.9.2",
   "description": "Locally hosted, web-based PDF manipulation tool (desktop app)",
-  "homepage": "https://stirlingtools.com",
+  "homepage": "https://www.stirlingpdf.com",
   "license": {
     "identifier": "Proprietary",
     "url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
