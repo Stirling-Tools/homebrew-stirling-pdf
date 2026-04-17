@@ -8,13 +8,13 @@ class StirlingPdfServer < Formula
 
   license "MIT"
 
-  depends_on "openjdk@21"
+  depends_on "openjdk"
 
   def install
     libexec.install "Stirling-PDF-with-login.jar" => "stirling-pdf-server.jar"
     (bin/"stirling-pdf-server").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["openjdk@21"].opt_bin}/java" -jar "#{libexec}/stirling-pdf-server.jar" "$@"
+      exec "#{Formula["openjdk"].opt_bin}/java" -jar "#{libexec}/stirling-pdf-server.jar" "$@"
     EOS
   end
 
@@ -28,7 +28,7 @@ class StirlingPdfServer < Formula
           <string>#{plist_name}</string>
           <key>ProgramArguments</key>
           <array>
-            <string>#{Formula["openjdk@21"].opt_bin}/java</string>
+            <string>#{Formula["openjdk"].opt_bin}/java</string>
             <string>-jar</string>
             <string>#{libexec}/stirling-pdf-server.jar</string>
           </array>
