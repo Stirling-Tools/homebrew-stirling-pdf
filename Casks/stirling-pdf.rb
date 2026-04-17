@@ -16,7 +16,7 @@ cask "stirling-pdf" do
 
   name "Stirling-PDF"
   desc "Locally hosted PDF manipulation tool"
-  homepage "https://www.stirlingpdf.com"
+  homepage "https://www.stirling.com"
 
   app "Stirling-PDF.app"
 

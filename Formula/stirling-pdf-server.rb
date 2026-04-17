@@ -1,6 +1,6 @@
 class StirlingPdfServer < Formula
   desc "Locally hosted, web-based PDF manipulation tool (server variant)"
-  homepage "https://www.stirlingpdf.com"
+  homepage "https://www.stirling.com"
   version "2.9.2"
 
   url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-with-login.jar"
