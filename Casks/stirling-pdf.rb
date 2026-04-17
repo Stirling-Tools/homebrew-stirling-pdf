@@ -16,8 +16,6 @@ cask "stirling-pdf" do
   desc "Locally hosted PDF manipulation tool"
   homepage "https://stirlingtools.com"
 
-  license :no_redistribute
-
   app "Stirling-PDF.app"
 
   zap trash: [
