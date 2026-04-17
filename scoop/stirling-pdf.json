@@ -1,0 +1,41 @@
+{
+  "version": "2.7.3",
+  "description": "Locally hosted, web-based PDF manipulation tool (desktop app)",
+  "homepage": "https://stirlingtools.com",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
+  },
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.7.3/Stirling-PDF-windows-x86_64.msi",
+      "hash": "PLACEHOLDER_MSI_SHA256"
+    }
+  },
+  "installer": {
+    "script": [
+      "$msiPath = \"$dir\\Stirling-PDF-windows-x86_64.msi\"",
+      "Start-Process msiexec.exe -ArgumentList '/i', $msiPath, '/quiet', '/norestart', \"INSTALLDIR=$dir\" -Wait -NoNewWindow"
+    ]
+  },
+  "uninstaller": {
+    "script": [
+      "$msiPath = \"$dir\\Stirling-PDF-windows-x86_64.msi\"",
+      "Start-Process msiexec.exe -ArgumentList '/x', $msiPath, '/quiet', '/norestart' -Wait -NoNewWindow"
+    ]
+  },
+  "shortcuts": [
+    ["Stirling-PDF.exe", "Stirling-PDF"]
+  ],
+  "notes": "Copyright (c) 2025 Stirling PDF Inc. Contact: contact@stirlingpdf.com",
+  "checkver": {
+    "github": "https://github.com/Stirling-Tools/Stirling-PDF"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v$version/Stirling-PDF-windows-x86_64.msi"
+      }
+    }
+  }
+}
