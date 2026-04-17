@@ -7,7 +7,7 @@
     "url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
   },
   "depends": [
-    "java/temurin21-jdk"
+    "java/openjdk25"
   ],
   "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.9.2/Stirling-PDF-with-login.jar",
   "hash": "3d51a002193cbe4f5530f1e29b6acd986545e77b8a07427e9954ab8bcef21986",
