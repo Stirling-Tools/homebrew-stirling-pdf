@@ -3,7 +3,7 @@
   "description": "Locally hosted, web-based PDF manipulation tool (server JAR)",
   "homepage": "https://www.stirling.com",
   "license": {
-    "identifier": "MIT",
+    "identifier": "Proprietary",
     "url": "https://github.com/Stirling-Tools/Stirling-PDF/blob/main/LICENSE"
   },
   "depends": [
