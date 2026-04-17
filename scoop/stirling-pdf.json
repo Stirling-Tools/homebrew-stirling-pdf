@@ -24,9 +24,10 @@
       "Start-Process msiexec.exe -ArgumentList '/x', $msiPath, '/quiet', '/norestart' -Wait -NoNewWindow"
     ]
   },
+  "bin": "PFiles\\Stirling-PDF\\stirling-pdf.exe",
   "shortcuts": [
     [
-      "Stirling-PDF.exe",
+      "PFiles\\Stirling-PDF\\stirling-pdf.exe",
       "Stirling-PDF"
     ]
   ],
