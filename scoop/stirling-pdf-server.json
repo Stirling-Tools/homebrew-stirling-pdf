@@ -1,5 +1,5 @@
 {
-  "version": "2.7.3",
+  "version": "2.9.2",
   "description": "Locally hosted, web-based PDF manipulation tool (server JAR)",
   "homepage": "https://stirlingtools.com",
   "license": {
@@ -9,10 +9,13 @@
   "depends": [
     "java/temurin21-jdk"
   ],
-  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.7.3/Stirling-PDF-with-login.jar",
-  "hash": "PLACEHOLDER_JAR_SHA256",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.9.2/Stirling-PDF-with-login.jar",
+  "hash": "3d51a002193cbe4f5530f1e29b6acd986545e77b8a07427e9954ab8bcef21986",
   "bin": [
-    ["stirling-pdf-server.cmd", "stirling-pdf-server"]
+    [
+      "stirling-pdf-server.cmd",
+      "stirling-pdf-server"
+    ]
   ],
   "post_install": [
     "Set-Content -Path \"$dir\\stirling-pdf-server.cmd\" -Value \"@echo off\\r\\njava -jar \\\"%~dp0Stirling-PDF-with-login.jar\\\" %*\""
