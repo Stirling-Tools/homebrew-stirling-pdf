@@ -1,15 +1,15 @@
 cask "stirling-pdf" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "2.9.2"
+  version "2.10.0"
 
   on_arm do
-    sha256 "38cdedd27b559556bed2bf5a28303bca8b26cee2351fd13b86e4f4cbc5a9b95e"
+    sha256 "2918ef73d55dc0e52c126806dc21f81be9503b8ea896968df59760cc5733d63a"
     url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-macos-aarch64.dmg",
         verified: "github.com/Stirling-Tools/Stirling-PDF/"
   end
   on_intel do
-    sha256 "4070495dcc283cdafc9cba3fe363cdadb31f7932fb33bfbe1b4f7540661f9c11"
+    sha256 "6ca4a900236e2ce6689260ccd4126542c17ea9fbb0a976e0fe1449d9431025b5"
     url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-macos-x86_64.dmg",
         verified: "github.com/Stirling-Tools/Stirling-PDF/"
   end

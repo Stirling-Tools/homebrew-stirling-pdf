@@ -1,10 +1,10 @@
 class StirlingPdfServer < Formula
   desc "Locally hosted, web-based PDF manipulation tool (server variant)"
   homepage "https://www.stirling.com"
-  version "2.9.2"
+  version "2.10.0"
 
   url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-with-login.jar"
-  sha256 "3d51a002193cbe4f5530f1e29b6acd986545e77b8a07427e9954ab8bcef21986"
+  sha256 "bb23c876ebac18e09e3e2aa556d0c378e907999dc76e84aa8aafc0503a310fbb"
 
   license all_of: ["MIT", "LicenseRef-Stirling-PDF-Proprietary"]
 
