@@ -1,18 +1,9 @@
 cask "stirling-pdf" do
-  arch arm: "aarch64", intel: "x86_64"
-
   version "2.10.0"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  on_arm do
-    sha256 "2918ef73d55dc0e52c126806dc21f81be9503b8ea896968df59760cc5733d63a"
-    url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-macos-aarch64.dmg",
-        verified: "github.com/Stirling-Tools/Stirling-PDF/"
-  end
-  on_intel do
-    sha256 "6ca4a900236e2ce6689260ccd4126542c17ea9fbb0a976e0fe1449d9431025b5"
-    url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-macos-x86_64.dmg",
-        verified: "github.com/Stirling-Tools/Stirling-PDF/"
-  end
+  url "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v#{version}/Stirling-PDF-macos-universal.dmg",
+      verified: "github.com/Stirling-Tools/Stirling-PDF/"
 
   name "Stirling-PDF"
   desc "Locally hosted PDF manipulation tool"
