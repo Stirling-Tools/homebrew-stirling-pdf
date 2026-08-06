@@ -1,5 +1,5 @@
 {
-  "version": "2.10.1",
+  "version": "2.14.3",
   "description": "Locally hosted, web-based PDF manipulation tool (desktop app)",
   "homepage": "https://www.stirling.com",
   "license": {
@@ -8,8 +8,8 @@
   },
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.10.1/Stirling-PDF-windows-x86_64.msi",
-      "hash": "49c0fd55bee0eb96f9d2cb041c13906e561976eaabd104b34171c876a789a3ef"
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.14.3/Stirling-PDF-windows-x86_64.msi",
+      "hash": "e93309ba206e529234084221a03f5dbd91719ce66ab06f8ad3474f5727f8dfd1"
     }
   },
   "installer": {

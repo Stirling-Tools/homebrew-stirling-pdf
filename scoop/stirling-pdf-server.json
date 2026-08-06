@@ -1,5 +1,5 @@
 {
-  "version": "2.10.1",
+  "version": "2.14.3",
   "description": "Locally hosted, web-based PDF manipulation tool (server JAR)",
   "homepage": "https://www.stirling.com",
   "license": {
@@ -9,8 +9,8 @@
   "depends": [
     "java/openjdk25"
   ],
-  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.10.1/Stirling-PDF-with-login.jar",
-  "hash": "e43854251ebf513a4eb8792de71f79ee5b0ea2f06687a8b17d6fd55ac83d5fa2",
+  "url": "https://github.com/Stirling-Tools/Stirling-PDF/releases/download/v2.14.3/Stirling-PDF-with-login.jar",
+  "hash": "f043b46fe75bdf286c65f8479702ef3972ad680be1782153f4b90722ca450b51",
   "bin": [
     [
       "stirling-pdf-server.cmd",
